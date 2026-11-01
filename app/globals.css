@@ -1,0 +1,38 @@
+.skill-card {
+  background: white;
+  padding: 25px;
+  width: 230px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.skill-card:hover {
+  transform: translateY(-7px);
+}
+
+.skill-card h2 {
+  color: #8865c7;
+  margin-bottom: 12px;
+}
+
+.skill-card p {
+  font-size: 15px;
+}
+.project-card span {
+  display: inline-block;
+  margin-top: 15px;
+  color: #8865c7;
+  font-size: 13px;
+  font-weight: bold;
+}
+.contact-card a {
+  color: #8865c7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-card a:hover {
+  color: #6844a5;
+  text-decoration: underline;
+}
